@@ -1,0 +1,1 @@
+$(function(){$(".password-show").on("click",function(){var input=$("#password"),show=input.attr("type")==="password";input.attr("type",show?"text":"password");$(this).attr({"aria-label":show?"Ẩn mật khẩu":"Hiện mật khẩu","aria-pressed":show});});});

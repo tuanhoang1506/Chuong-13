@@ -1,0 +1,1 @@
+$(function(){ $(".checkbox-card .checkme").on("change",function(){var card=$(this).closest(".checkbox-card");card.find(".passport-box, .apply-box").stop(true,true).toggle(this.checked);if(!this.checked){card.find(".passport-box input").val("");}});$(".apply-link").on("click",function(e){e.preventDefault();});});

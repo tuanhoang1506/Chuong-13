@@ -1,0 +1,1 @@
+$(function(){function setTheme(isLight){$("body").toggleClass("theme-light",isLight).toggleClass("theme-dark",!isLight);$(".theme-image").removeClass("fadeEffect").eq(isLight?1:0).addClass("fadeEffect");$("#theme-status").text(isLight?"ON":"OFF");}$("#myonoffswitch").on("change",function(){setTheme(this.checked);});setTheme(false);});
